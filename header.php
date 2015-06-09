@@ -19,8 +19,56 @@
 	<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/html5.js"></script>
 	<![endif]-->
-
 	<?php wp_head(); ?>
+	<style>	
+	.color-primary,
+	#footer a:hover,
+	.skills-list li:hover .icon,
+	.horizon-header .title span,
+	#portfolio .menu-item-link:hover,
+	.blog-item .blog-item-footer a:hover,
+	#services .service .service-wrapper:hover .service-icon,	
+	a {
+		color: red;
+	}	
+	
+	.horizon-btn,
+	#footer .general-info,
+	.horizon-search .search-btn,
+	#portfolio .menu-item:after,
+	.blog-item .blog-item-header .sep,
+	.navbar-default .navbar-nav > li:after,
+	#services .service .service-wrapper:hover .sep,
+	.horizon-header .sep, .background-primary, .hover-primary:hover,
+	.portfolio-list .portfolio-item .portfolio-item-caption .portfolio-item-title::before {
+		background-color: red;
+	}
+
+	.skills-list,
+	.horizon-form input:active,
+	.horizon-form input:focus,
+	.horizon-form textarea:active,
+	.horizon-form textarea:focus,
+	.blog-item .blog-item-image,
+	.navbar-default .navbar-nav > li:hover,
+	blockquote.cite footer, .border-primary,
+	.blog-item .blog-item-footer .blog-item-comments {
+		border-color: red;
+	}
+
+	.navbar-default .navbar-nav > .active,
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > li > a:hover {
+		border-color: red;
+		color: red;
+	}
+
+	#footer .social-icons svg:hover {
+		fill: red;
+	}
+	</style>
+
 </head>
 
 <body <?php body_class(); ?>>

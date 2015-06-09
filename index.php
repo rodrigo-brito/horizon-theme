@@ -33,7 +33,7 @@ get_header(); ?>
 			<div class="container">
 
 				<header class="horizon-header">
-					<h2 class="title">I'm the <span>Horizon</span></h2>
+					<h2 class="title">I'm the <span class="color-primary">Horizon</span></h2>
 					<span class="sep"></span>
 					<p class="desc">Our work is your satisfaction</p>
 				</header>
@@ -43,7 +43,7 @@ get_header(); ?>
 					congue suscipit felis. Etiam accumsan, libero ac tristique maximus, diam risus interdum odio, sed ultricies arcu quam vel mauris.</p>
 				</blockquote>
 
-				<a href="#" class="horizon-btn">Contact us</a>
+				<a href="#" class="background-primary horizon-btn">Contact us</a>
 
 			</div> <!-- .container -->
 
@@ -377,7 +377,7 @@ get_header(); ?>
 									<p>Ex itaque a facilis, recusandae laudantium est voluptatem porro fuga cupiditate atque eligendi natus voluptatum doloribus voluptate, modi reiciendis corporis magni iusto!</p>
 								</div><!-- .blog-item-excerpt -->
 
-								<button class="horizon-btn btn-blog-item"><?php _e( 'Continue reading', 'horizon-theme' ); ?></button>
+								<button class="horizon-btn btn-blog-item background-primary"><?php _e( 'Continue reading', 'horizon-theme' ); ?></button>
 
 								<footer class="blog-item-footer">
 									<span class="blog-item-author"><?php _e( 'Published by', 'horizon-theme' ); ?> <a href="#">Administrador</a></span>
@@ -410,7 +410,7 @@ get_header(); ?>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex itaque a facilis, recusandae laudantium est voluptatem porro fuga cupiditate atque eligendi natus voluptatum doloribus voluptate, modi reiciendis corporis magni iusto!</p>
 								</div><!-- .blog-item-excerpt -->
 
-								<button class="horizon-btn btn-blog-item"><?php _e( 'Continue reading', 'horizon-theme' ); ?></button>
+								<button class="horizon-btn btn-blog-item background-primary"><?php _e( 'Continue reading', 'horizon-theme' ); ?></button>
 
 								<footer class="blog-item-footer">
 									<span class="blog-item-author"><?php _e( 'Published by', 'horizon-theme' ); ?> <a href="#">Administrador</a></span>
@@ -500,7 +500,7 @@ get_header(); ?>
 						<div class="form-group">
 								<textarea id="horizon-form-message" name="message" placeholder="<?php _e( 'Message', 'horizon-theme' ); ?>"></textarea>
 						</div>
-						<button href="#" class="horizon-btn btn-md"><?php _e( 'Send Message', 'horizon-theme' ); ?></button>
+						<button href="#" class="background-primary horizon-btn btn-md"><?php _e( 'Send Message', 'horizon-theme' ); ?></button>
 					</form>
 				</div><!-- .contact-form -->
 				<div id="map" class="col-md-6">
